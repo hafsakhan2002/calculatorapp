@@ -1,0 +1,197 @@
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+
+
+body{
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+
+img{
+    height: 200px;
+    margin-left: 20px;
+}
+
+.calinput{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgb(192, 192, 192) 0px 1px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(124, 51, 81);
+}
+
+.calinputResult{
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    color: rgb(124, 51, 81);
+    box-shadow: rgb(192, 192, 192) 0px 1px 0px 0px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-animation: text-focus-in 0.12s ease-in-out both;
+    animation: text-focus-in 0.12s ease-in-out both;
+}
+
+
+
+div{
+
+    padding: 2px;
+    margin: 2px;
+
+}
+
+
+.title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    color: rgb(124, 51, 81);
+}
+
+.card{
+    width: 250px;
+    margin:0 auto;
+    margin-top: 5px;
+    padding: 2rem;
+    border: solid rgb(124, 51, 81) 1rem;
+    border-radius: 10rem;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(70, 15, 15, 0.5), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.btn-secondary{
+    width: 21%;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
+
+}
+
+.btn-secondary:focus{
+    box-shadow: none !important;
+}
+.btn-secondary:active{
+    background-color: rgb(155, 59, 142) !important;
+}
+
+.btn-primary{
+    width: 30%;
+    font-weight: bolder !important;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
+
+}
+.btn-primary:focus{
+
+    box-shadow: none !important;
+
+}
+
+
+.btn-outline-info{
+    width: 22%;
+    font-weight: bolder !important;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
+
+}
+
+.btn-outline-info:focus{
+
+    box-shadow: none !important;
+
+}
+
+.btn-outline-info:active{
+
+    font-size: 20px;
+
+}
+
+
+.btn-outline-dark{
+
+    width: 21%;
+    font-weight: bold !important;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
+
+}
+
+.btn-outline-dark:focus{
+
+    box-shadow: none !important;
+
+}
+
+
+
+
+.btn-outline-danger{
+    width: 47%;
+    font-weight: bolder !important;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
+
+}
+.btn-outline-danger:active{
+    -webkit-animation: text-focus-in 0.1s ease-in-out both;
+	 animation: text-focus-in 0.1s ease-in-out both;
+    
+
+
+}
+.btn-outline-danger:focus{
+
+    box-shadow: none !important;
+
+}
+
+/* .btn-outline-danger:active{
+    font-size: 20px;
+} */
+
+.btn-outline-success{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) !important;
+
+}
+.btn-outline-success:focus{
+
+    box-shadow: none !important;
+
+} 
+
+.btn-outline-success:active{
+    -webkit-animation: text-focus-in 0.1s ease-in-out both;
+    animation: text-focus-in 0.1s ease-in-out both;
+    /* font-size: 20px; */
+}
